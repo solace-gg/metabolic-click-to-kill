@@ -1,7 +1,6 @@
 # Niu 2024 Supplementary Figure S12 — Lysis of HUVECs (normal endothelial cells)
 # LDH release assay, n=3, error = SD
 # Source: Niu et al. 2024 supplementary materials (digitised by Sa, 2026-05-12)
-# CRITICAL FINDING: pM-NK and NK kill HUVECs at the SAME (very low) rate.
 # Compared to pM-NK lysis of MDA-MB-231 (~73%), this gives a ~40x cancer-vs-normal lysis selectivity.
 # E:T ratio assumed 10:1 per Niu 2024 main-text standard protocol; not explicitly stated in S12 caption (peer review W8 flag, 2026-06-12).
 # The S12 caption gives n=3 but does not state the E:T ratio directly; the main text confirms Fig 3 used 10:1.
