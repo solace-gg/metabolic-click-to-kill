@@ -1,0 +1,9 @@
+# Wang 2017 Supplementary Figure 8 — Absolute azide density on LS174T cells
+# Conditions: 200 µM DCL-AAM × 48h, labelled with 50 µM DBCO-Cy3 × 1h
+# CALCULATION (from figure caption — no WPD needed):
+#   Mass DBCO-Cy3 per cell:  (7.5 ng/mL × 200 µL) / 100,000 cells  = 1.5e-5 ng/cell
+#   Moles azides per cell:   1.5e-5 ng / 983.78 g/mol               = 1.5e-17 mol
+#   Number azides per cell:  1.5e-17 × 6.022e23                      = 9.0e6
+# Calibration: linear fluorescence vs DBCO-Cy3 concentration, R²=0.9696
+cell_line,treatment,azides_per_cell,source
+LS174T,DCL-AAM 200uM x 48h,9.0e6,Wang 2017 Supp Fig 8 caption (calibrated calculation)

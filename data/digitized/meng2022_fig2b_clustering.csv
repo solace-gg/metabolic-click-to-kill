@@ -1,0 +1,13 @@
+# Meng 2022 Fig 2b — NK-tumour cluster formation over time
+# Y-axis: Number of clusters (NK-Raji multicellular aggregates)
+# Source: Meng et al. 2022, Adv Funct Mater, Fig 2b
+# Digitized from uploaded image by visual bar reading
+# Relevance: contact frequency proxy for ABM validation
+#
+group,timepoint_h,n_clusters,cluster_SD,notes
+NK+Raji,2,1.2,0.4,Baseline — minimal clustering
+NK-NPs+Raji,2,2.0,0.6,ILNPs but no targeting
+N3-NK-NPs+BCN-Raji,2,3.2,1.2,Bio-orthogonal targeting — ~2.7x vs baseline
+NK+Raji,4,2.0,0.8,Baseline at 4h
+NK-NPs+Raji,4,3.0,0.8,ILNPs at 4h
+N3-NK-NPs+BCN-Raji,4,8.0,2.0,Full system — ~4x vs baseline. ***=p<0.001 vs NK+Raji

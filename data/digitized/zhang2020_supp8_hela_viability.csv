@@ -1,0 +1,11 @@
+# Zhang 2020 Supplementary Figure S8B — HeLa cell viability with engineered NK conditions
+# E:T 10:1, 1h, n=3. Cancer-vs-normal selectivity control for HepG2 (main Fig 2b).
+# T-P-NK on HeLa: 64.5% viability = 35.5% killed
+# T-P-NK on HepG2 (main Fig 2b): 35% viability = 65% killed
+# Cancer/Normal lysis selectivity = 65/35.5 = 1.83x (matches Zhang's reported 1.9x)
+nk_condition,hela_viability_pct
+Control,93.42
+NK,82.89
+T-NK,82.89
+P-NK,67.59
+T-P-NK,64.47

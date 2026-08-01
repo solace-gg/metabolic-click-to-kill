@@ -1,0 +1,10 @@
+# Meng 2022 Fig 2c — CD45-APC fluorescence (NK cell tumour infiltration proxy)
+# Y-axis: CD45-APC (a.u.) — higher = more NK cells infiltrated into spheroid
+# Source: Meng et al. 2022, Adv Funct Mater, Fig 2c
+# Digitized from uploaded image
+# Relevance: quantifies infiltration enhancement from bio-orthogonal targeting
+#
+group,cd45_apc,cd45_apc_SD,fold_vs_baseline,notes
+NK+Raji,0.28,0.06,1.0,Baseline infiltration
+NK-NPs+Raji,0.44,0.04,1.57,ILNPs — moderate improvement
+N3-NK-NPs+BCN-Raji,0.80,0.04,2.86,Full targeting — ***=p<0.001. ~2.9x vs baseline

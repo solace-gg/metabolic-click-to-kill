@@ -1,0 +1,18 @@
+# Wang 2017 Supplementary Figure 6b — DCL-AAM cancer-vs-normal cross-validation
+# Cy5 fluorescence intensity, n=6, error = SD
+# Cancer (MCF-7, HepG2) vs Normal (HBEC-5i, IMR-90); DCL-AAM, PBS, Ac4ManAz conditions.
+# Cross-validates main Fig 3d's ratio. CRITICAL: Ac4ManAz (non-selective) labels all cells ~100x more
+# than PBS, confirming DCL-AAM's selectivity comes from the CAGING, not the sugar itself.
+cell_type,cell_line,treatment,cy5_intensity,sd
+cancer,MCF-7,DCL-AAM,55.98,11.64
+cancer,MCF-7,PBS,10.07,4.33
+cancer,MCF-7,Ac4ManAz,160,39
+cancer,HepG2,DCL-AAM,43.87,10.28
+cancer,HepG2,PBS,10.11,6.46
+cancer,HepG2,Ac4ManAz,145,35
+normal,HBEC-5i,DCL-AAM,11.25,5.74
+normal,HBEC-5i,PBS,10.11,5.90
+normal,HBEC-5i,Ac4ManAz,105,35
+normal,IMR-90,DCL-AAM,10.45,3.36
+normal,IMR-90,PBS,10.02,3.36
+normal,IMR-90,Ac4ManAz,98,12

@@ -1,0 +1,26 @@
+# Meng 2022 Hill coefficient fit — N3-NK-NPs+BCN-Raji cytotoxicity vs E:T
+# Model: P_kill = (E:T)^n / ((E:T)^n + K_half^n), P_max fixed at 1.0
+# Fit on 3 data points: E:T = 0.25, 0.5, 1.0
+# R² = 0.9958
+#
+# RESULTS:
+# K_half = 0.322 ± 0.012 (E:T ratio at 50% killing)
+# n (Hill coefficient) = 2.459 ± 0.243
+# 95% CI on n: [1.98, 2.93]
+#
+# INTERPRETATION:
+# This is E:T dose-response cooperativity, NOT directly bond-count cooperativity.
+# It provides INDIRECT support for our A3 Hill n=2:
+#   - Meng E:T cooperativity n ≈ 2.5 → consistent with cooperative killing mechanism
+#   - Our A3 bond-count cooperativity n = 2.0 (Orange 2013 analogy)
+#   - Combined: n ∈ [1.5, 2.5] is well-supported by two independent anchors
+#   - n < 1.5 or n > 3.0 would be inconsistent with available data
+#
+# CAVEAT: 3 data points → 1 degree of freedom with P_max fixed.
+# This is structurally informative but NOT a rigorous statistical fit.
+# Report as "consistent with" not "proves".
+#
+parameter,value,uncertainty,CI_95_lower,CI_95_upper,unit
+K_half,0.322,0.012,0.298,0.347,E:T ratio
+n_Hill,2.459,0.243,1.983,2.935,dimensionless
+R_squared,0.9958,,,,dimensionless

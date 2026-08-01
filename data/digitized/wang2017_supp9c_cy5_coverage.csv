@@ -1,0 +1,8 @@
+# Wang 2017 Supplementary Figure 9c — % Cy5-covered area of tumour tissue sections
+# Metric: sum of frequency (Cy5 intensity >= 50 a.u.) / total frequency
+# Tumour sections from mice treated with DCL-AAM, Ac4ManAz, or PBS i.v.
+# DCL-AAM gives ~3.2x MORE in-tumour coverage than Ac4ManAz despite Ac4ManAz being non-selective —
+# because DCL-AAM concentrates in tumour while Ac4ManAz dilutes across all tissues.
+condition,cy5_covered_area_pct
+DCL-AAM,66.1
+Ac4ManAz,20.6

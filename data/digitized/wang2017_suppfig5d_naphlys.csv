@@ -1,0 +1,45 @@
+# Wang 2017 Supplementary Figure 5d — HDAC/CTSL Naph-Lys turn-on activity
+# Source: Wang et al. 2017, Nat Chem Biol 13:415-424, DOI:10.1038/nchembio.2297
+# Supplementary Figure 5d (Supplementary Information, page 6)
+# Digitised by Sa, 2026-05-12, WebPlotDigitizer
+#
+# Conditions: cells treated with Naph-Lys (50 μM) × 4h, ± TSA (1 μM, HDAC inhibitor)
+#             or ± Z-FY-CHO (50 μM, CTSL inhibitor). n=6 per condition.
+# Y-axis: Average fluorescence intensity (a.u.)
+# Statistics: one-way ANOVA (Fisher), 0.01 < *P ≤ 0.05; **P ≤ 0.01; ***P ≤ 0.001
+#
+# Cell lines:
+#   Cancer (n=5): LS174T (colon), MCF-7 (breast), 4T1 (TNBC murine), HepG2 (liver), MDA-MB-231 (TNBC human)
+#   Normal (n=3): MCF-10A (breast basal epithelial), HBEC-5i (cerebral microvascular endothelium), IMR-90 (human fibroblast)
+#
+# POOLED ENZYMATIC-ONLY SELECTIVITY (cancer / normal Naph-Lys baseline):
+#   3.71× ± 0.33 SD across 15 cancer-normal pairings
+#   range: 3.16× (LS174T/IMR-90) to 4.31× (4T1/MCF-10A)
+#
+# This is the cleanest enzymatic-only anchor for dclaam_selectivity_enzymatic_invitro.
+# See TL-16 in THESIS_LOG.md for the full provenance and resolution of the "30×" question.
+cell_type,cell_line,condition,fluorescence_intensity,notes
+cancer,LS174T,Naph-Lys,518.76,baseline HDAC/CTSL activity
+cancer,LS174T,Naph-Lys+TSA,228.44,HDAC inhibited (57% drop)
+cancer,LS174T,Naph-Lys+Z-FY-CHO,293.86,CTSL inhibited (43% drop)
+cancer,MCF-7,Naph-Lys,546.45,
+cancer,MCF-7,Naph-Lys+TSA,230.83,58% drop
+cancer,MCF-7,Naph-Lys+Z-FY-CHO,324.90,41% drop
+cancer,4T1,Naph-Lys,645.77,
+cancer,4T1,Naph-Lys+TSA,266.64,59% drop
+cancer,4T1,Naph-Lys+Z-FY-CHO,293.86,"VERIFY: 4T1 Z-FY-CHO value 293.86 is identical to LS174T's Z-FY-CHO. Suspected transcription duplicate. Does NOT change pooled enzymatic selectivity 3.71x (the 3 normals' Z-FY-CHO controls dominate the pooled denominator). Needs visual re-verification on Wang Supp 5d before submission. (55% drop)"
+cancer,HepG2,Naph-Lys,602.32,
+cancer,HepG2,Naph-Lys+TSA,247.54,59% drop
+cancer,HepG2,Naph-Lys+Z-FY-CHO,358.80,40% drop
+cancer,MDA-MB-231,Naph-Lys,611.87,
+cancer,MDA-MB-231,Naph-Lys+TSA,273.81,55% drop
+cancer,MDA-MB-231,Naph-Lys+Z-FY-CHO,395.09,35% drop
+normal,MCF-10A,Naph-Lys,149.66,baseline (no significant enzyme activity)
+normal,MCF-10A,Naph-Lys+TSA,130.56,n.s. vs Naph-Lys
+normal,MCF-10A,Naph-Lys+Z-FY-CHO,132.47,n.s. vs Naph-Lys
+normal,HBEC-5i,Naph-Lys,159.21,
+normal,HBEC-5i,Naph-Lys+TSA,150.14,n.s.
+normal,HBEC-5i,Naph-Lys+Z-FY-CHO,157.30,n.s.
+normal,IMR-90,Naph-Lys,163.98,
+normal,IMR-90,Naph-Lys+TSA,149.66,n.s.
+normal,IMR-90,Naph-Lys+Z-FY-CHO,166.85,n.s.

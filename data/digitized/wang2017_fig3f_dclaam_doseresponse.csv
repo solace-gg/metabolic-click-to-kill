@@ -1,0 +1,36 @@
+# Wang 2017 Main Figure 3f — DCL-AAM time- and concentration-dependent labelling in LS174T cells
+# Source: Wang et al. 2017, Nat Chem Biol 13:415-424
+# Cy5 fluorescence intensity, n=4 per point. PBS baseline normalised to 10.
+# RECALIBRATED 2026-05-12 by Sa (replaces previous version that had a y-axis offset).
+# All curves correctly start at t=0, y=10 (PBS baseline). Curve shapes verified vs figure.
+# Paper text: "approaching a plateau value in the order of 10^6-10^7 azides per cell after 48h × 200 µM"
+# Supp Fig 8 calibrated absolute: 9.0×10^6 azides per cell at the 200 µM × 48h plateau point.
+dclaam_concentration_uM,time_h,cy5_intensity
+10,0,10.00
+10,3,10.10
+10,6,10.38
+10,12,11.08
+10,24,11.39
+10,48,12.18
+10,72,12.80
+50,0,10.00
+50,3,10.49
+50,6,10.72
+50,12,12.15
+50,24,16.46
+50,48,22.24
+50,72,25.53
+200,0,10.00
+200,3,11.51
+200,6,13.00
+200,12,18.04
+200,24,28.74
+200,48,39.50
+200,72,42.09
+1000,0,10.00
+1000,3,12.83
+1000,6,15.39
+1000,12,22.60
+1000,24,37.61
+1000,48,44.29
+1000,72,48.43

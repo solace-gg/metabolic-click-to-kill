@@ -1,0 +1,9 @@
+# Niu 2024 Supplementary Figure S11 — Killing efficacy vs glycopolymer concentration
+# Specific Lysis (%) of MDA-MB-231 at 10:1 E:T, n=3, error = SD
+# Saturation between 1.5 and 2.0 mg/mL (n.s.); ** between 0.1 and 2.0 mg/mL.
+glycopolymer_mg_per_ml,lysis_pct,sd_pct
+0.1,47.14,5.76
+0.5,58.76,2.53
+1.0,62.87,2.05
+1.5,71.18,3.52
+2.0,72.94,11.73

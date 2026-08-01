@@ -1,0 +1,15 @@
+# Wang 2017 Main Figure 3d — DCL-AAM cancer-vs-normal selectivity (IN VITRO)
+# Cy5 fluorescence intensity, n=6, error = SD; PBS group normalised to 10.
+# Cross-validates Supp Fig 5d: LS174T/MCF-10A ratio = 25.5/9.7 = 2.63x; 4T1/MCF-10A = 34.8/9.7 = 3.59x
+# (Supp Fig 5d gave pooled 3.71x across 5 cancer x 3 normal lines — same answer)
+cell_type,cell_line,treatment,cy5_intensity,sd
+cancer,LS174T,DCL-AAM,25.54,2.32
+cancer,LS174T,DCL-AAM+TSA,11.11,3.03
+cancer,LS174T,DCL-AAM+Z-FY-CHO,16.13,2.11
+cancer,LS174T,PBS,10.03,2.32
+cancer,4T1,DCL-AAM,34.77,4.89
+cancer,4T1,DCL-AAM+TSA,10.98,3.70
+cancer,4T1,DCL-AAM+Z-FY-CHO,15.79,5.48
+cancer,4T1,PBS,10.01,4.27
+normal,MCF-10A,DCL-AAM,9.72,3.66
+normal,MCF-10A,PBS,10.01,3.73

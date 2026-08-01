@@ -1,0 +1,25 @@
+# Zhang 2020 Fig 2b — Cell viability (%) of HepG2 cells after treatment
+# Y-axis: Cell viability (%) — LOWER = more killing
+# IMPORTANT: Y-axis range is ~30-100%, NOT 0-100%. Previous digitization had systematic error.
+# E:T ratio: 10:1 (from Fig 2a bottom row + Fig 2b caption)
+# Source: Zhang et al. 2020, Angew Chem Int Ed, Fig 2b
+# Re-digitized 2026-04-19 after identifying y-axis misread in original pass
+#
+# ANCHORING: Paper text states 62.76% apoptosis+necrosis for T-P-NK at 10:1 (Fig 2a flow cytometry).
+# Fig 2b is a DIFFERENT assay (cell viability bar chart). We expect viability ~ 37% for T-P-NK
+# (100-62.76=37.24%) if assays agree. Our bar reading gives ~37%, confirming correct scale.
+#
+# Post-processing: cytotoxicity% = (1 - viability / HepG2_control) * 100
+#
+# CAVEAT: Bar heights read from PDF figure at moderate resolution. Uncertainty ±3-5%.
+# Recommend user verify with WebPlotDigitizer on high-res figure.
+#
+group,viability_pct,viability_SD,cytotoxicity_pct,p_value,notes
+HepG2_control,92,3,0.0,,No NK — baseline viability ~92-95%
+NK_cells,68,3,26.1,,Unmodified NK
+T-NK_cells,63,3,31.5,,TLS11a aptamer only — moderate improvement over NK
+P-NK_cells,68,4,26.1,,PDL1 aptamer only — similar to NK alone (checkpoint block alone insufficient)
+rT-P-NK_cells,55,3,40.2,,Mutant targeting + PDL1 — reduced specificity but PDL1 still active
+T-rP-NK_cells,52,3,43.5,,Targeting + mutant PDL1 — targeting active but checkpoint block reduced
+rT-rP-NK_cells,88,3,4.3,,Both mutants — near baseline (negative control confirms specificity)
+T-P-NK_cells,37,2,59.8,<0.0001 vs HepG2,Dual aptamer — best performer; ~60% cyto matches paper 62.76%

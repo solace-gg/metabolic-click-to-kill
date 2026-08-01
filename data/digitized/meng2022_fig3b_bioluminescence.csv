@@ -1,0 +1,28 @@
+# Meng 2022 Fig 3b — Bioluminescence killing assay
+# Y-axis: Avg radiance (p/sec/cm2/Sr)(1e7) — LOWER = more killing
+# Raji cells express luciferase; surviving cells glow. Normalized to Raji-alone control.
+# 24h co-incubation. Raji = Burkitt lymphoma (CD20+).
+# Source: Meng et al. 2022, Adv Funct Mater, Fig 3b
+# Digitized from uploaded image by visual reading of bar heights
+# IMPORTANT: These are avg radiance values, NOT cytotoxicity %.
+# Post-processing: cytotoxicity% = (1 - radiance_treatment / radiance_Raji_alone) * 100
+#
+group,ET_ratio,avg_radiance_1e7,radiance_SD_1e7,cytotoxicity_pct,notes
+Raji_alone,0.25:1,1.55,0.15,0.0,No-NK control
+NK+Raji,0.25:1,1.40,0.12,9.7,Baseline NK killing at low E:T
+BCN-Raji,0.25:1,1.50,0.10,3.2,BCN label alone — no NK enhancement expected
+NK+IL-21+Raji,0.25:1,1.30,0.15,16.1,Free IL-21 adds modest boost
+NK-NPs+Raji,0.25:1,1.20,0.12,22.6,ILNPs but no targeting
+N3-NK-NPs+BCN-Raji,0.25:1,1.00,0.10,35.5,Full system — matches paper "~40%"
+Raji_alone,0.5:1,1.50,0.12,0.0,No-NK control
+NK+Raji,0.5:1,1.20,0.10,20.0,Baseline
+BCN-Raji,0.5:1,1.40,0.08,6.7,BCN only
+NK+IL-21+Raji,0.5:1,1.00,0.12,33.3,Free IL-21
+NK-NPs+Raji,0.5:1,0.85,0.10,43.3,ILNPs no targeting
+N3-NK-NPs+BCN-Raji,0.5:1,0.40,0.08,73.3,Full system
+Raji_alone,1:1,1.45,0.10,0.0,No-NK control
+NK+Raji,1:1,1.05,0.10,27.6,Baseline
+BCN-Raji,1:1,1.30,0.08,10.3,BCN only
+NK+IL-21+Raji,1:1,0.80,0.10,44.8,Free IL-21
+NK-NPs+Raji,1:1,0.55,0.08,62.1,ILNPs no targeting
+N3-NK-NPs+BCN-Raji,1:1,0.05,0.03,96.6,Full system — matches paper "~95%"
