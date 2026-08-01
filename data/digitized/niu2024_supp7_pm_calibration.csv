@@ -3,13 +3,7 @@
 # Panel A: Fluorescence intensity (y) vs glycopolymer MASS (mg, x). Linear fit.
 # Panel B: Glycopolymer density (mg/10^4 cells, y) vs concentration (mg/mL, x). Linear fit on NK cells.
 #
-# ⚠️ Panel A FIGURE-INSET DISCREPANCY (flagged 2026-05-12):
-# The figure visibly shows a POSITIVE slope (~2000 per mg, line passes from (0,0) to (2.5, ~5000)).
-# But the equation table inset reports slope = -219.6. Almost certainly a typo or label swap in
-# the figure inset. For any actual calibration, derive slope visually from data points or use the
-# clearly-correct Panel B fit (which is internally consistent).
 #
-# Panel B is the workhorse: tells us how much pM gets loaded onto NK cells at any treatment concentration.
 # Useful for cross-checking dbco_density_per_nk via the polymannose carrier proxy.
 panel,intercept,intercept_se,slope,slope_se,r_squared,x_units,y_units,notes
 A_fluorescence_vs_mass_AS_REPORTED,1055,109.0,-219.6,50.02,0.9911,mg,fluorescence intensity,"⚠️ Slope sign disagrees with visible data — likely figure-inset typo. Use line visually if calibration needed."
