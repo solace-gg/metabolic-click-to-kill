@@ -1,0 +1,11 @@
+# Core (Monte-Carlo reach / TI / compound feasibility, permeability, analytics) — laptop-class
+numpy>=1.24
+scipy>=1.10
+rdkit>=2023.3
+matplotlib>=3.7
+pandas>=2.0
+requests>=2.28
+# Optional heavy tools (feasibility checks) — install as needed:
+#   xtb            : self-immolation free energies   (conda install -c conda-forge xtb)
+#   AutoDock Vina  : docking                         (conda install -c conda-forge vina openbabel)
+#   OpenMM + OpenFF: 310 K molecular dynamics         (conda install -c conda-forge openmm openmmforcefields openff-toolkit)

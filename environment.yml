@@ -1,0 +1,17 @@
+name: mck
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - scipy>=1.10
+  - rdkit>=2023.3
+  - matplotlib>=3.7
+  - pandas>=2.0
+  - requests>=2.28
+  # optional heavy tools (uncomment as needed):
+  # - xtb
+  # - vina
+  # - openbabel
+  # - openmm
+  # - openmmforcefields
+  # - openff-toolkit
