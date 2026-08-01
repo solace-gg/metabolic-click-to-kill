@@ -1,0 +1,5 @@
+group,cell_line,condition,contact_frequency
+NK_MDA,MDA-MB-231,NK,31.0
+pMNK_MDA,MDA-MB-231,pM-NK,78.0
+NK_HeLa,HeLa,NK,30.0
+pMNK_HeLa,HeLa,pM-NK,38.4

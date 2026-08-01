@@ -1,0 +1,17 @@
+# Niu 2024 calibration data — specific lysis (%) by E:T ratio, LDH release assay.
+# Source corrected from Fig 3D -> Fig 3B per peer review W8 (2026-06-12). Per Niu 2024 main text,
+# Fig 3B is the LDH E:T-ratio panel (1:1, 5:1, 10:1) for MDA-MB-231; Fig 3C = fluorescence microscopy;
+# Fig 3D/E = HeLa data. The 72.49% MDA-MB-231 datapoint at 10:1 E:T comes from Fig 3B (LDH). Numbers unchanged.
+et_ratio,cell_line,condition,specific_lysis_pct,source
+1:1,MDA-MB-231,NK,8.08,Niu 2024 Fig 3B digitised
+1:1,MDA-MB-231,pM-NK,26.72,Niu 2024 Fig 3B digitised
+1:1,HeLa,NK,15.96,Niu 2024 Fig 3B digitised
+1:1,HeLa,pM-NK,17.81,Niu 2024 Fig 3B digitised
+5:1,MDA-MB-231,NK,22.77,Niu 2024 Fig 3B digitised
+5:1,MDA-MB-231,pM-NK,47.85,Niu 2024 Fig 3B digitised
+5:1,HeLa,NK,22.15,Niu 2024 Fig 3B digitised
+5:1,HeLa,pM-NK,22.15,Niu 2024 Fig 3B digitised
+10:1,MDA-MB-231,NK,43.19,Niu 2024 Fig 3B digitised
+10:1,MDA-MB-231,pM-NK,72.49,Niu 2024 Fig 3B digitised
+10:1,HeLa,NK,41.90,Niu 2024 Fig 3B digitised
+10:1,HeLa,pM-NK,48.84,Niu 2024 Fig 3B digitised

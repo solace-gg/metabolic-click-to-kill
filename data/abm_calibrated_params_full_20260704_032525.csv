@@ -1,0 +1,11 @@
+parameter,value,unit,notes
+p_engage,0.001206,prob/step,Calibrated DE (full 20260704_032525)
+p_kill_per_contact,0.6008,prob,Calibrated DE
+nk_speed_mean,7.90,um/min,Calibrated DE
+engage_boost_pmnk,2.5,ratio,Fixed from Niu Fig 2C (78/31)
+p_click_bonus,0.2975,prob,Calibrated DE
+bond_threshold_for_bonus,9,bonds,Calibrated DE
+r_squared,0.9106,,Production R²
+r_squared_ci_low,0.8932,,Bootstrap 2.5%
+r_squared_ci_high,0.9223,,Bootstrap 97.5%
+rmse_percent_lysis,6.174,,Production RMSE
